@@ -38,3 +38,25 @@ sudo docker-compose exec web python manage.py loaddata fixtures.json
 - Денис Кудаков | [Github](https://github.com/DK0894) | Разработчик, разработка части, касающейся управления пользователями (Auth и Users): система регистрации и аутентификации, права доступа, работа с токеном, система подтверждения через e-mail
 - Галиева Ляйсан | [Github](https://github.com/killyourasta) | Разработчик, написание части с категориями (Categories), жанрами (Genres) и произведениями (Titles): моделями, представлениями и эндпойнтами для них.
 - Шелепин Дмитрий | [Github](https://github.com/oladushkin) | Тимлид, написание части с отзывами (Review) и комментариями (Comments): описание модели, представления, настройка эндпойнтов, определение прав доступа для запросов. Рейтинги произведений.
+
+### MIT License
+
+Copyright (c) 2022 Denis Kudakov
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
